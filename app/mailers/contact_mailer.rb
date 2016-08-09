@@ -1,6 +1,7 @@
-class ControlMailer < ActionMailer::Base
+
+class ContactMailer < ActionMailer::Base
    default to: 'mbelgarde@hotmail.com'
-    
+
     def contact_email(name, email, body)
       @name = name
       @email = email
